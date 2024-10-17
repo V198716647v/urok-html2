@@ -1,0 +1,4 @@
+ul {
+    list-style-image: url('valera.jpg'); /* Пользовательское изображение для маркера */
+    margin-left: 1000px;
+}
