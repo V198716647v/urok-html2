@@ -1,0 +1,8 @@
+body {
+    background-color: aquamarine;
+}
+
+ul li {
+    color: rgb(248, 8, 8); /* Цвет текста */
+    font-family: 'Times New Roman', serif; /* Шрифт */
+}
