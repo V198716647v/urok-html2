@@ -1,0 +1,6 @@
+ol {
+    list-style-type: none; /* A, B, C */
+}
+ul li {
+    display: inline-block;
+}
