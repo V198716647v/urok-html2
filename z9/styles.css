@@ -1,0 +1,20 @@
+.container {
+    background-color: black;
+}
+
+h1 {
+    color:rgb(235, 150, 24);
+}
+
+ol {
+    color:beige;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+ol li {
+    font-size:20px;
+    background-color:IndianRed;
+    margin: 10px;
+}
