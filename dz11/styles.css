@@ -8,20 +8,20 @@ body{
 
 }
 .container { 
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(215, 17, 17);
     width: 80%;
     padding: 20px; /* Отступ внутри контейнера */
     border-radius: 10px;
 
 }
 .custom-list {
-    background-color: linear-gradient(to battom, #ffccf2, #ff66b2);
+    background-color: linear-gradient(to battom, #cfffcc, #22024b);
     padding: 20px;
-    border: radius 10px;
-    border: 5px solid #e96dff
+    border-radius:   10px;
+    border: 5px solid #092182
 }
 .fruit-item {
-    background-color: #e96dff;
+    background-color: #de300d;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
@@ -29,8 +29,8 @@ body{
 
 }
 .fruit-item:hover {
-    background-color: #66b3ff ;
+    background-color: #06080a ;
 }
 .highlight {
-    background-color: rgb(251, 31, 31);
+    background-color: rgb(211, 216, 42);
 }
