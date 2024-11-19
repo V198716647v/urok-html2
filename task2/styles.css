@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 1;
+    padding: 1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background: linear-gradient(to bottom right, blue, pink);
+    font-size: 120%;
+
+
+}
+
+
+.sidebar {
+    width: 100px; /* Начальная ширина меню */
+    height: 120vh; /* Высота меню на всю высоту окна */
+    background-color: #0d0101;
+    overflow: hidden; /* Скрытие содержимого, выходящего за границы */
+    transition: width 1s; /* Плавное изменение ширины */
+}
+
+.sidebar:hover {
+    width: 300px; /* Полная ширина при наведении */
+}
+
+.menu {
+    list-style-type: none;
+    padding: 1;
+}
+
+.menu li {
+    padding: 20px;
+    color: rgb(35, 10, 220);
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавное изменение фона при наведении */
+}
+
+.menu li:hover {
+    background-color: #555; /* Более темный фон при наведении на элемент меню */
+}
+
+.content {
+    padding: 30px;
+    flex-grow: 1; /* Занимает оставшееся пространство */
+}
