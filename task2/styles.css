@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 1;
-    padding: 1;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 
 .sidebar {
     width: 100px; /* Начальная ширина меню */
-    height: 120vh; /* Высота меню на всю высоту окна */
+    height: 100vh; /* Высота меню на всю высоту окна */
     background-color: #0d0101;
     overflow: hidden; /* Скрытие содержимого, выходящего за границы */
     transition: width 1s; /* Плавное изменение ширины */
@@ -43,6 +43,6 @@ body {
 }
 
 .content {
-    padding: 30px;
+    padding: 20px;
     flex-grow: 1; /* Занимает оставшееся пространство */
 }
