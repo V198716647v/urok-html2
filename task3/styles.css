@@ -1,66 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 1;
+    padding: 1;
+}
+
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0eeff3;
+}
+
+.my-button {
+    background-color: #0bea13; /* Зеленый фон */
+    border: none; /* Убираем рамку */
+    color: white; /* Цвет текста */
+    padding: 15px 32px; /* Отступы */
+    text-align: center; /* Выравнивание текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Отображение как блок */
+    font-size: px; /* Размер шрифта */
+    margin: 4px 4px; /* Отступы вокруг кнопки */
+    cursor: pointer; /* Курсор при наведении */
+    border-radius: 5px; /* Скругленные углы */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+.my-button:hover {
+    background-color: #e10a0a; /* Цвет фона при наведении */
 }
 
 .container {
-    background-color: #ccc;
-    max-width: 750px;
-    margin: 0 auto;
+    display: flex;
+    gap: 20px; /* Пробел между блоками */
+}
+
+.subscription-plan {
+    background-color: #f6f5f7;
+    border: 1px solid #7907f2;
+    border-radius: 10px;
     padding: 20px;
-}
-
-h1 {
-    color: #000000;
+    width: 200px; /* Начальная ширина блока */
+    height: 250px; /* Начальная высота блока */
     text-align: center;
+    transition: transform 0.3s; /* Плавное изменение размера */
+    box-shadow: 0 4px 8px rgba(21, 21, 20, 0.1);
 }
 
-h2 {
-    color: #000000;
-    text-align: center;
-}
-
-a {
-    color: black;
-    text-decoration: underline;
-    text-decoration-style: dotted;
-}
-
-a:hover {
-    color: lightcoral;
-    text-decoration: underline;
-    text-decoration-style: solid;
-}
-
-p {
-    margin-bottom: 15px;
-}
-
-code {
-    background-color: #eaeaea;
-    padding: 2px 5px;
-    border-radius: 3px;
-    color: rgb(255, 0, 0);
-}
-
-.example {
-    background-color: #eef;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 20px 0;
-    white-space: pre;
-    line-height: 0.6;
-}
-
-.tag {
-    color: red;
-}
-
-.tag1 {
-    background-color: gray;
-    color: rgb(157, 255, 157);
-    padding: 5px;
-    border-radius: 4px;
-}
+.subscription-plan:hover {
+    transform: scale(1.1); /* Увеличение размера блока при наведении */
